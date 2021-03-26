@@ -1,3 +1,52 @@
+footer{
+    background-color: darkgray;
+    width: 100%;
+}
+.contactlist{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+.contactlinks{
+    display: inline;
+    padding: 0 12%;
+}
 p{
-    color: red
+    color: rgb(239, 255, 15);
+    text-align: center;
+}
+h1{
+    text-align: right;
+    padding-right: 15%;
+    font-family: cursive;
+    color: white;
+    font-size: 35px;
+    transform: rotate(15deg);
+}
+h2{
+    padding-left: 15%;
+    color: white;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+h3 {
+    color: purple;
+    padding-left: 25px;
+}
+li {
+    color: green;
+    font-size: 15px;
+}
+img {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
+}
+body{
+    background-color: blue;
 }
