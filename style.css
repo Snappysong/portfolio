@@ -1,52 +1,70 @@
-footer{
-    background-color: darkgray;
-    width: 100%;
+body{ /*overall background color and font theme*/
+    background-color: black;
+    font-family: cursive;
 }
-.contactlist{
+h1{ /*aligns text in the center and formats the size and color*/
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    text-decoration: bold;
+    font-size: 40px;
+}
+h2{ /*aligns text in the center and formats the size and color*/
+    text-align: center;
+    color: teal;
+    font-size: 25px;
+}
+h3 { /*aligns text in the center and formats the size and color*/
+    text-align: center;
+    color: teal;
+    padding-left: 18px;
+}
+img { /*gave my img a border and changed the size and placement*/
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    height: 350px;
+    width: 275px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: teal;
+}
+p{ /*makes the paragraphs white color*/
+    color: white;
+    text-align: center;
+}
+li { /*formating the list information*/
+    color: rgb(125, 255, 255);
+    font-size: 15px;
+
+}
+footer{ /*this makes the footer teal and 50px high*/
+    background-color: teal;
+    width: 100%;
+    height: 50px;
+}
+.contactlist{ /*this removes the bullets or numbers from a list*/
     list-style-type: none;
     margin: 0;
     padding: 0;
 
 }
-.contactlinks{
+.contactlinks{ /*this puts the contact links in a single line*/
     display: inline;
-    padding: 0 12%;
+    margin: 15px 10% 15px 10%;
 }
-p{
-    color: rgb(239, 255, 15);
-    text-align: center;
+a:link { /*this makes links look yellow*/
+    color: yellow;
 }
-h1{
-    text-align: right;
-    padding-right: 15%;
-    font-family: cursive;
-    color: white;
-    font-size: 35px;
-    transform: rotate(15deg);
+a:visited { /*this makes visited links look red*/
+    color: red;
 }
-h2{
-    padding-left: 15%;
-    color: white;
-    text-decoration: underline;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+img:hover { /*this makes it when your mouseover the image it looks red! */
+    border-color: red;
 }
-h3 {
-    color: purple;
-    padding-left: 25px;
+h2:hover { /*this makes it when your mouseover h2 it looks red! */
+    color: red;
 }
-li {
-    color: green;
-    font-size: 15px;
-}
-img {
-    border-radius: 50%;
-    display: block;
-    margin: auto;
-    border-style: solid;
-    border-width: 10px;
-    border-color: white;
-}
-body{
-    background-color: blue;
+h3:hover { /*this makes it when your mouseover h3 it looks red! */
+    color: red;
 }
