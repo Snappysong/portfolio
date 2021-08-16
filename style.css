@@ -39,7 +39,7 @@ li { /*formating the list information*/
 
 }
 footer{ /*this makes the footer teal and 50px high*/
-    background-color: teal;
+    background-color: yellow;
     width: 100%;
     height: 50px;
 }
