@@ -1,57 +1,201 @@
 <!DOCTYPE html> <!-- Needed for any html page-->
 <html lang="en">
     <head>
-
-        <title>Andrew's Portfolio</title> <!--title for the webpage-->
-
-        <link href="style.css" rel="stylesheet" type="text/css" /> <!--Link to my style sheet-->
+        <title>Andrew Song Portfolio</title> <!--title for the webpage-->
+        <!-- Link to my CSS style sheet  <link href="style.css" rel="stylesheet" type="text/css" /> -->
 
         <meta charset="utf-8"> <!--Basic meta for alphabet characters, i believe-->
-        <meta name="viewport" content="width=device-width"> <!-- meta for adjusting to page size-->
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- meta for adjusting to page size-->
+        
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
     </head>
 
-    <body> <!--body start-->
-        <header>
-            <h1 class="center">Andrew Song</h1> <!-- Main Heading-->
+    <body>
+        <div class="container">
+            <div class="row">
+                <header class="d-flex flex-wrap justify-content-center border-bottom">
 
-            <img src="images/andrew.jpg" alt="Picture of me eating a scorpion"> <!-- Image imported from project file-->
-        </header>
+                    <div class="col-md-6 d-flex align-items-center">
+                        <a href="/" class="justify-content-left text-decoration-none">
+                            <h1>Andrew Song</h1>
+                            <h6>Full Stack Web Developer</h6>
+                        </a>
+                    </div>
 
-<!-- what do I want to add to my page? list of tech i know, projects, interests, about me -->
+                    <div class="col-md-6 d-flex align-items-center">
+                        <ul class="nav nav-pills justify-content-right nav-justified">
+                            <li class="nav-item">
+                                <a href="#about" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#skills" class="nav-link">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#projects" class="nav-link">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contact" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
 
-    <main> <!--main start-->
-        <h2>Who is this guy?</h2> <!--Heading-->
-            <p>Hey there! My name is Andrew and I am now a offical web developer! I am currently located in Puerto Rico and loving it! I was born in California and was raised in Washington state, so it's easy for me to find the good things about living in a city or a smaller town. With my new programming skills, I hope to find a remote job that gives me the freedom to travel and work at the same time! </p>
-        
-                <h3>When I am not programming I love to...</h3>
-                    <ul>  <!--this creates an unorganized list-->
-                        <li>Play DnD</li>     <!-- List elements--> 
-                        <li>Hit the gym</li>
-                        <li>Lounge around the house with my kitty</li>
-                    </ul>
-        <hr> <!--creates a horizontal line break-->
-        <h2>About me:</h2> <!-- article heading-->
-            <p>So I am a very beginner web developer but I am full of ideas and eager to learn! I hope to be a part of a growing team that can work together to make something magical. I have several projects in mind, mostly things that have to do with Dungeons and Dragons or any other Tabletop RPGs. I also have some ideas for workout planners and nutrition trackers. I would prefer working freelance or remote so I get the chance to work and travel! There are many places I haven't been to yet in this world, but here are some of my favorites!</p>
-                <article> <!-- new article for search purposes-->
-                    <h3>My top 5 destinations..</h3>
-                        <ol> <!--this creates a ordered list-->
-                            <li>Seattle, WA</li> <!--List elements-->
-                            <li>Isabela, Puerto Rico</li>
-                            <li>San Jose, CA</li>
-                            <li>Koh Phangan, Thailand</li>
-                            <li>Prague, Czech Republic</li>
-                        </ol>
-                </article>
-    <footer> <!--creates footer -->
-            <h2>Contact me here:</h2> <!--article heading-->
-                <ul class="contactlist"> <!--creates a "list" for my contacts-->
-                    <li class="contactlinks"><a href="https://www.linkedin.com/in/andrew-song-b43146103/">LinkedIn</a></li>
-                    <li class="contactlinks"><a href="https://github.com/Snappysong">Github</a></li>
-                    <li class="contactlinks"><a href=mailto:snappysong@gmail.com>Email Me</a></li>
+                    <!-- <img src="images/andrew.jpg" alt="Picture of me eating a scorpion"> Image imported from project file -->
+                </header>
+
+            </div>
+        </div>
+
+        <main>
+            <section id="about">
+                <h2>About</h2> 
+                    <p>Hey there! My name is Andrew and I am now a offical web developer! I am currently located in Puerto Rico and loving it! I was born in California and was raised in Washington state, so it's easy for me to find the good things about living in a city or a smaller town. With my new programming skills, I hope to find a remote job that gives me the freedom to travel and work at the same time! </p>
+                    <hr />
+                    <p>So I am a very beginner web developer but I am full of ideas and eager to learn! I hope to be a part of a growing team that can work together to make something magical. I have several projects in mind, mostly things that have to do with Dungeons and Dragons or any other Tabletop RPGs. I also have some ideas for workout planners and nutrition trackers. I would prefer working freelance or remote so I get the chance to work and travel! There are many places I haven't been to yet in this world, but here are some of my favorites!</p>
+            </section>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-3">
+                            HTML
+                        </div>
+                        <div class="col-3">
+                            CSS
+                        </div>
+                        <div class="col-3">
+                            Javascript
+                        </div>
+                        <div class="col-3">
+                            React
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-3">
+                            Node.js
+                        </div>
+                        <div class="col-3">
+                            Git
+                        </div>
+                        <div class="col-3">
+                            jQuery
+                        </div>
+                        <div class="col-3">
+                            SQL
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-3">
+                            Knex.js
+                        </div>
+                        <div class="col-3">
+                            Express
+                        </div>
+                        <div class="col-3">
+                            Postgres
+                        </div>
+                        <div class="col-3">
+                            Mocha Chai
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="container">
+                    <div class="row">
+
+                        <div class="card d-flex col-4">
+                            <img src="" class="card-img-top" alt="Reservation Project Example">
+                            <div class="card-body">
+                                <h5 class="card-title">Project title</h5>
+                                <p class="card-text">Describe the project</p>
+                                <a href="#" class="btn btn-primary">Link to Project</a>
+                            </div>
+                        </div>
+
+                        <div class="card d-flex col-4">
+                            <img src="" class="card-img-top" alt="Reservation Project Example">
+                            <div class="card-body">
+                                <h5 class="card-title">Project title</h5>
+                                <p class="card-text">Describe the project</p>
+                                <a href="#" class="btn btn-primary">Link to Project</a>
+                            </div>
+                        </div>
+
+                        <div class="card d-flex col-4">
+                            <img src="" class="card-img-top" alt="Reservation Project Example">
+                            <div class="card-body">
+                                <h5 class="card-title">Project title</h5>
+                                <p class="card-text">Describe the project</p>
+                                <a href="#" class="btn btn-primary">Link to Project</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="contact">
+                <h2>Contact</h2>
+                <div class="container">
+                    <form action="https://formsubmit.co/snappysong@gmail.com" method="POST">
+                        <legend>Contact me</legend>
+                        <label class="form-label">Name:</label>
+                        <input 
+                            type="text" 
+                            name="name" 
+                            placeholder="Your Name" 
+                            required
+                            class="form-control"
+                        >
+                        <label class="form-label">Email:</label>
+                        <input 
+                            type="email" 
+                            name="email" 
+                            placeholder="Your Email Address" 
+                            required
+                            class="form-control"
+                        >
+                        <label class="form-label">Message:</label>
+                        <input
+                            type="textarea" 
+                            name="message" 
+                            placeholder="Write your message here." 
+                            required
+                            class="form-control"
+                        >
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+
+            </section>
+
+        </main>
+
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none">Button</a> 
+                    <span class="text-muted">Find me on Discord</span>
+                </div>
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a href="https://www.linkedin.com/in/andrew-song-b43146103/">LinkedIn</a></li>
+                    <li class="ms-3"><a href="https://github.com/Snappysong">Github</a></li>
                 </ul>
-    </footer>
+            </footer>
+        </div>
 
-    </main>
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
     </body>
 </html>
 
