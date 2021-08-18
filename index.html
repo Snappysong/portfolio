@@ -13,27 +13,27 @@
     </head>
 
     <body>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <header class="d-flex flex-wrap justify-content-center border-bottom">
+                <header class="d-flex flex-wrap justify-content-around border-bottom">
 
                     <div class="col-md-6 d-flex align-items-center">
                         <a href="/" class="justify-content-left text-decoration-none">
-                            <h1>Andrew Song</h1>
-                            <h6>Full Stack Web Developer</h6>
+                            <h1 class="display-1">Andrew Song</h1>
+                            <h6 class="d-flex justify-content-center">Full Stack Web Developer</h6>
                         </a>
                     </div>
 
                     <div class="col-md-6 d-flex align-items-center">
-                        <ul class="nav nav-pills justify-content-right nav-justified">
+                        <ul class="nav nav-pills nav-justified">
                             <li class="nav-item">
                                 <a href="#about" class="nav-link">About</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#skills" class="nav-link">Skills</a>
+                                <a href="#projects" class="nav-link">Projects</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#projects" class="nav-link">Projects</a>
+                                <a href="#skills" class="nav-link">Skills</a>
                             </li>
                             <li class="nav-item">
                                 <a href="#contact" class="nav-link">Contact</a>
@@ -41,113 +41,112 @@
                         </ul>
                     </div>
 
-                    <!-- <img src="images/andrew.jpg" alt="Picture of me eating a scorpion"> Image imported from project file -->
                 </header>
-
             </div>
         </div>
 
-        <main>
+        <main class="container-fluid">
+
             <section id="about">
-                <h2>About</h2> 
+                <h3 class="d-flex justify-content-center display-3">About Me</h3> 
                     <p>Hey there! My name is Andrew and I am now a offical web developer! I am currently located in Puerto Rico and loving it! I was born in California and was raised in Washington state, so it's easy for me to find the good things about living in a city or a smaller town. With my new programming skills, I hope to find a remote job that gives me the freedom to travel and work at the same time! </p>
                     <hr />
                     <p>So I am a very beginner web developer but I am full of ideas and eager to learn! I hope to be a part of a growing team that can work together to make something magical. I have several projects in mind, mostly things that have to do with Dungeons and Dragons or any other Tabletop RPGs. I also have some ideas for workout planners and nutrition trackers. I would prefer working freelance or remote so I get the chance to work and travel! There are many places I haven't been to yet in this world, but here are some of my favorites!</p>
             </section>
 
-            <section id="skills">
-                <h2>Skills</h2>
+            <section id="projects">
+                <h3 class="d-flex justify-content-center display-3">Projects</h3>
                 <div class="container">
                     <div class="row">
+
+                        <div class="card d-flex col-md-4 justify-content-center">
+                            <img src="" class="card-img-top" alt="Reservation Project Example">
+                            <div class="card-body">
+                                <h5 class="card-title">Project title</h5>
+                                <p class="card-text">Describe the project</p>
+                                <a href="#" class="btn btn-primary">Link to Project</a>
+                            </div>
+                        </div>
+
+                        <div class="card d-flex col-md-4 justify-content-center">
+                            <img src="" class="card-img-top" alt="Reservation Project Example">
+                            <div class="card-body">
+                                <h5 class="card-title">Project title</h5>
+                                <p class="card-text">Describe the project</p>
+                                <a href="#" class="btn btn-primary">Link to Project</a>
+                            </div>
+                        </div>
+
+                        <div class="card d-flex col-md-4 justify-content-center">
+                            <img src="" class="card-img-top" alt="Reservation Project Example">
+                            <div class="card-body">
+                                <h5 class="card-title">Project title</h5>
+                                <p class="card-text">Describe the project</p>
+                                <a href="#" class="btn btn-primary">Link to Project</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills">
+                <h3 class="d-flex justify-content-center display-3">Skills</h3>
+
+                <div class="container">
+                    <div class="row justify-content-around" style="padding:0px !important;">
                         <div class="col-3">
-                            HTML
+                            <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg" alt="" style="min-height:200px; max-height:200px; width:100%;" class="img-responsive grow">
+                            <p class="d-flex justify-content-center">HTML</p>
                         </div>
                         <div class="col-3">
-                            CSS
+                            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="css3" style="min-height:200px; max-height:200px; width:100%;" class="svg-inline--fa fa-css3 fa-w-16 skill-icon grow" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M480 32l-64 368-223.3 80L0 400l19.6-94.8h82l-8 40.6L210 390.2l134.1-44.4 18.8-97.1H29.5l16-82h333.7l10.5-52.7H56.3l16.3-82H480z"></path></svg>                            
+                            <p class="d-flex justify-content-center">CSS</p>
                         </div>
                         <div class="col-3">
-                            Javascript
-                        </div>
-                        <div class="col-3">
-                            React
+                            <img src="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg" alt="" style="min-height:200px; max-height:200px; width:100%;" class="img-responsive grow">
+                            <p class="d-flex justify-content-center">Javascript</p>
                         </div>
                     </div>
 
-                    <div class="row">
+                    <div class="row justify-content-around" style="padding:0px !important;">
                         <div class="col-3">
-                            Node.js
+                            <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" alt="" style="min-height:200px; max-height:200px; width:100%;" class="img-responsive grow">
+                            <p class="d-flex justify-content-center">React</p>
                         </div>
                         <div class="col-3">
-                            Git
+                            <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg" alt="" style="min-height:200px; max-height:200px; width:100%;" class="img-responsive grow">
+                            <p class="d-flex justify-content-center">Node.js</p>
                         </div>
                         <div class="col-3">
-                            jQuery
-                        </div>
-                        <div class="col-3">
-                            SQL
+                            <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="" style="min-height:200px; max-height:200px; width:100%;" class="img-responsive grow">
+                            <p class="d-flex justify-content-center">Git</p>
                         </div>
                     </div>
 
-                    <div class="row">
+                    <div class="row justify-content-around" style="padding:0px !important;">
                         <div class="col-3">
-                            Knex.js
+                            <img src="https://www.vectorlogo.zone/logos/jquery/jquery-icon.svg" alt="" style="min-height:200px; max-height:200px; width:100%;" class="img-responsive grow">
+                            <p class="d-flex justify-content-center">jQuery</p>
                         </div>
                         <div class="col-3">
-                            Express
+                            <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="" style="min-height:200px; max-height:200px; width:100%;" class="img-responsive grow">
+                            <p class="d-flex justify-content-center">SQLite</p>
                         </div>
                         <div class="col-3">
-                            Postgres
-                        </div>
-                        <div class="col-3">
-                            Mocha Chai
+                            <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" alt="" style="height:200px; max-height:200px; width:100%;" class="img-responsive grow">
+                            <p class="d-flex justify-content-center">Postgres</p>
                         </div>
                     </div>
                 </div>
 
             </section>
             
-            <section id="projects">
-                <h2>Projects</h2>
-                <div class="container">
-                    <div class="row">
-
-                        <div class="card d-flex col-4">
-                            <img src="" class="card-img-top" alt="Reservation Project Example">
-                            <div class="card-body">
-                                <h5 class="card-title">Project title</h5>
-                                <p class="card-text">Describe the project</p>
-                                <a href="#" class="btn btn-primary">Link to Project</a>
-                            </div>
-                        </div>
-
-                        <div class="card d-flex col-4">
-                            <img src="" class="card-img-top" alt="Reservation Project Example">
-                            <div class="card-body">
-                                <h5 class="card-title">Project title</h5>
-                                <p class="card-text">Describe the project</p>
-                                <a href="#" class="btn btn-primary">Link to Project</a>
-                            </div>
-                        </div>
-
-                        <div class="card d-flex col-4">
-                            <img src="" class="card-img-top" alt="Reservation Project Example">
-                            <div class="card-body">
-                                <h5 class="card-title">Project title</h5>
-                                <p class="card-text">Describe the project</p>
-                                <a href="#" class="btn btn-primary">Link to Project</a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </section>
-
             <section id="contact">
-                <h2>Contact</h2>
+                <h3 class="d-flex justify-content-center display-3">Contact</h3>
                 <div class="container">
                     <form action="https://formsubmit.co/snappysong@gmail.com" method="POST">
-                        <legend>Contact me</legend>
+                        <legend>Contact me via Email</legend>
                         <label class="form-label">Name:</label>
                         <input 
                             type="text" 
@@ -172,7 +171,7 @@
                             required
                             class="form-control"
                         >
-                        <button type="submit">Send</button>
+                        <button type="submit" class="btn btn-primary mt-4">Send</button>
                     </form>
                 </div>
 
@@ -183,8 +182,7 @@
         <div class="container">
             <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
                 <div class="col-md-4 d-flex align-items-center">
-                    <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none">Button</a> 
-                    <span class="text-muted">Find me on Discord</span>
+                    <span class="text-muted">Find me on Discord @ Snappy#4005</span>
                 </div>
                 <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
                     <li class="ms-3"><a href="https://www.linkedin.com/in/andrew-song-b43146103/">LinkedIn</a></li>
