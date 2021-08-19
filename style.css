@@ -1,63 +1,34 @@
-body{ /*overall background color and font theme*/
-    background-color: black;
-    font-family: cursive;
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+.cinzel {
+    font-family: 'Cinzel', sans-serif;
 }
-h1{ /*aligns text in the center and formats the size and color*/
-    text-align: center;
-    color: white;
-    text-decoration: underline;
-    text-decoration: bold;
-    font-size: 40px;
+.raleway {
+    font-family: 'Raleway', sans-serif;
 }
-h2{ /*aligns text in the center and formats the size and color*/
-    text-align: center;
-    color: teal;
-    font-size: 25px;
+header {
+    background-color: rgb(188,171,121);
 }
-h3 { /*aligns text in the center and formats the size and color*/
-    text-align: center;
-    color: teal;
-    padding-left: 18px;
+footer {
+    background-color: rgb(188,171,121); 
 }
-img { /*gave my img a border and changed the size and placement*/
-    border-radius: 50%;
-    display: block;
-    margin: auto;
-    height: 350px;
-    width: 275px;
-    border-style: solid;
-    border-width: 10px;
-    border-color: teal;
+body { 
+    background-color: rgb(242,228,187);
+    font-family: Arial, Helvetica, sans-serif;
 }
-p{ /*makes the paragraphs white color*/
-    color: white;
-    text-align: center;
+p{
+    color: black;
+    font-family: 'Raleway', sans-serif;
 }
-li { /*formating the list information*/
-    color: rgb(125, 255, 255);
-    font-size: 15px;
 
+h3{
+    color: rgb(71,74,44);
 }
-footer{ /*this makes the footer teal and 50px high*/
-    background-color: yellow;
-    width: 100%;
-    height: 50px;
+a:link { /*this makes links look blue*/
+    color: blue;
 }
-.contactlist{ /*this removes the bullets or numbers from a list*/
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-
-}
-.contactlinks{ /*this puts the contact links in a single line*/
-    display: inline;
-    margin: 15px 10% 15px 10%;
-}
-a:link { /*this makes links look yellow*/
-    color: yellow;
-}
-a:visited { /*this makes visited links look red*/
-    color: red;
+a:visited { /*this makes visited links look purple*/
+    color: rgb(164,66,0);
 }
 img:hover { /*this makes it when your mouseover the image it looks red! */
     border-color: red;

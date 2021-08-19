@@ -1,42 +1,40 @@
-<!DOCTYPE html> <!-- Needed for any html page-->
+<!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Andrew Song Portfolio</title> <!--title for the webpage-->
-        <!-- Link to my CSS style sheet  <link href="style.css" rel="stylesheet" type="text/css" /> -->
+        <title>Andrew Song Portfolio</title> 
 
-        <meta charset="utf-8"> <!--Basic meta for alphabet characters, i believe-->
-        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- meta for adjusting to page size-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <!-- my style css file -->
+        <link href="style.css" rel="stylesheet" type="text/css" />
 
     </head>
 
     <body>
         <div class="container-fluid">
             <div class="row">
-                <header class="d-flex flex-wrap justify-content-around border-bottom">
+                <header id="header" class="d-flex flex-wrap justify-content-around border-bottom">
 
-                    <div class="col-md-6 d-flex align-items-center">
+                    <div class="col-md-8 d-flex align-items-center">
                         <a href="/" class="justify-content-left text-decoration-none">
-                            <h1 class="display-1">Andrew Song</h1>
-                            <h6 class="d-flex justify-content-center">Full Stack Web Developer</h6>
+                            <h1 class="display-1 cinzel">Andrew Song</h1>
+                            <h6 class="d-flex justify-content-center cinzel">Full Stack Web Developer</h6>
                         </a>
                     </div>
 
-                    <div class="col-md-6 d-flex align-items-center">
-                        <ul class="nav nav-pills nav-justified">
+                    <div class="col-md-4 d-flex align-items-center">
+                        <ul class="nav nav-pills justify-content-end">
                             <li class="nav-item">
-                                <a href="#about" class="nav-link">About</a>
+                                <a href="#projects" class="nav-link raleway">Projects</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#projects" class="nav-link">Projects</a>
+                                <a href="#skills" class="nav-link raleway">Skills</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#skills" class="nav-link">Skills</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#contact" class="nav-link">Contact</a>
+                                <a href="#contact" class="nav-link raleway">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -48,23 +46,25 @@
         <main class="container-fluid">
 
             <section id="about">
-                <h3 class="d-flex justify-content-center display-3">About Me</h3> 
+                <h3 class="d-flex justify-content-center display-3 cinzel">About Me</h3> 
                     <p>Hey there! My name is Andrew and I am now a offical web developer! I am currently located in Puerto Rico and loving it! I was born in California and was raised in Washington state, so it's easy for me to find the good things about living in a city or a smaller town. With my new programming skills, I hope to find a remote job that gives me the freedom to travel and work at the same time! </p>
                     <hr />
                     <p>So I am a very beginner web developer but I am full of ideas and eager to learn! I hope to be a part of a growing team that can work together to make something magical. I have several projects in mind, mostly things that have to do with Dungeons and Dragons or any other Tabletop RPGs. I also have some ideas for workout planners and nutrition trackers. I would prefer working freelance or remote so I get the chance to work and travel! There are many places I haven't been to yet in this world, but here are some of my favorites!</p>
             </section>
 
             <section id="projects">
-                <h3 class="d-flex justify-content-center display-3">Projects</h3>
+                <h3 class="d-flex justify-content-center display-3 cinzel">Projects</h3>
                 <div class="container">
                     <div class="row">
 
-                        <div class="card d-flex col-md-4 justify-content-center">
-                            <img src="" class="card-img-top" alt="Reservation Project Example">
+                        <div class="card d-flex col-md-4">
+                            <img src="images/restuarant-dashboard.png" class="card-img-top" alt="Reservation Project Example">
                             <div class="card-body">
-                                <h5 class="card-title">Project title</h5>
-                                <p class="card-text">Describe the project</p>
-                                <a href="#" class="btn btn-primary">Link to Project</a>
+                                <h5 class="card-title cinzel">Restuarant Reservations</h5>
+                                <p class="card-text raleway">
+                                    This project is aimed toward service and hospitality employee use with the purpose of making and tracking reservations and tables.
+                                </p>
+                                <a href="https://thinkful-rest-res-client.herokuapp.com/" class="btn btn-primary">View Project</a>
                             </div>
                         </div>
 
@@ -91,50 +91,50 @@
             </section>
 
             <section id="skills">
-                <h3 class="d-flex justify-content-center display-3">Skills</h3>
+                <h3 class="d-flex justify-content-center display-3 cinzel">Skills</h3>
 
                 <div class="container">
                     <div class="row justify-content-around" style="padding:0px !important;">
                         <div class="col-3">
-                            <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg" alt="" style="min-height:200px; max-height:200px; width:100%;" class="img-responsive grow">
+                            <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg" alt="" style="min-height:100px; max-height:100px; width:100%;" class="img-responsive grow">
                             <p class="d-flex justify-content-center">HTML</p>
                         </div>
                         <div class="col-3">
-                            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="css3" style="min-height:200px; max-height:200px; width:100%;" class="svg-inline--fa fa-css3 fa-w-16 skill-icon grow" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M480 32l-64 368-223.3 80L0 400l19.6-94.8h82l-8 40.6L210 390.2l134.1-44.4 18.8-97.1H29.5l16-82h333.7l10.5-52.7H56.3l16.3-82H480z"></path></svg>                            
+                            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="css3" style="min-height:100px; max-height:100px; width:100%;" class="svg-inline--fa fa-css3 fa-w-16 skill-icon grow" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M480 32l-64 368-223.3 80L0 400l19.6-94.8h82l-8 40.6L210 390.2l134.1-44.4 18.8-97.1H29.5l16-82h333.7l10.5-52.7H56.3l16.3-82H480z"></path></svg>                            
                             <p class="d-flex justify-content-center">CSS</p>
                         </div>
                         <div class="col-3">
-                            <img src="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg" alt="" style="min-height:200px; max-height:200px; width:100%;" class="img-responsive grow">
+                            <img src="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg" alt="" style="min-height:100px; max-height:100px; width:100%;" class="img-responsive grow">
                             <p class="d-flex justify-content-center">Javascript</p>
                         </div>
                     </div>
 
                     <div class="row justify-content-around" style="padding:0px !important;">
                         <div class="col-3">
-                            <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" alt="" style="min-height:200px; max-height:200px; width:100%;" class="img-responsive grow">
+                            <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" alt="" style="min-height:100px; max-height:100px; width:100%;" class="img-responsive grow">
                             <p class="d-flex justify-content-center">React</p>
                         </div>
                         <div class="col-3">
-                            <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg" alt="" style="min-height:200px; max-height:200px; width:100%;" class="img-responsive grow">
+                            <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg" alt="" style="min-height:100px; max-height:100px; width:100%;" class="img-responsive grow">
                             <p class="d-flex justify-content-center">Node.js</p>
                         </div>
                         <div class="col-3">
-                            <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="" style="min-height:200px; max-height:200px; width:100%;" class="img-responsive grow">
+                            <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="" style="min-height:100px; max-height:100px; width:100%;" class="img-responsive grow">
                             <p class="d-flex justify-content-center">Git</p>
                         </div>
                     </div>
 
                     <div class="row justify-content-around" style="padding:0px !important;">
                         <div class="col-3">
-                            <img src="https://www.vectorlogo.zone/logos/jquery/jquery-icon.svg" alt="" style="min-height:200px; max-height:200px; width:100%;" class="img-responsive grow">
+                            <img src="https://www.vectorlogo.zone/logos/jquery/jquery-icon.svg" alt="" style="min-height:100px; max-height:100px; width:100%;" class="img-responsive grow">
                             <p class="d-flex justify-content-center">jQuery</p>
                         </div>
                         <div class="col-3">
-                            <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="" style="min-height:200px; max-height:200px; width:100%;" class="img-responsive grow">
+                            <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="" style="min-height:100px; max-height:100px; width:100%;" class="img-responsive grow">
                             <p class="d-flex justify-content-center">SQLite</p>
                         </div>
                         <div class="col-3">
-                            <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" alt="" style="height:200px; max-height:200px; width:100%;" class="img-responsive grow">
+                            <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" alt="" style="height:100px; max-height:100px; width:100%;" class="img-responsive grow">
                             <p class="d-flex justify-content-center">Postgres</p>
                         </div>
                     </div>
@@ -143,7 +143,7 @@
             </section>
             
             <section id="contact">
-                <h3 class="d-flex justify-content-center display-3">Contact</h3>
+                <h3 class="d-flex justify-content-center display-3 cinzel">Contact</h3>
                 <div class="container">
                     <form action="https://formsubmit.co/snappysong@gmail.com" method="POST">
                         <legend>Contact me via Email</legend>
@@ -179,16 +179,26 @@
 
         </main>
 
-        <div class="container">
-            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-                <div class="col-md-4 d-flex align-items-center">
-                    <span class="text-muted">Find me on Discord @ Snappy#4005</span>
-                </div>
-                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                    <li class="ms-3"><a href="https://www.linkedin.com/in/andrew-song-b43146103/">LinkedIn</a></li>
-                    <li class="ms-3"><a href="https://github.com/Snappysong">Github</a></li>
-                </ul>
-            </footer>
+        <div class="container-fluid">
+            <div class="row">
+                <footer class="d-flex justify-content-around align-items-center border-top">
+
+                    <div class="col-4 d-flex justify-content-left">
+                        <p class="text-muted raleway">Find me on Discord @ Snappy#4005</p>
+                    </div>
+
+                    <div class="col-4 justify-content-center d-flex">
+                        <a href="#header" class="nav-link raleway">Back to Top</a>
+                    </div>
+
+                    <div class="col-4 d-flex justify-content-end">
+                        <ul class="nav list-unstyled">
+                            <li class="ms-3"><a href="https://www.linkedin.com/in/andrew-song-b43146103/">LinkedIn</a></li>
+                            <li class="ms-3"><a href="https://github.com/Snappysong">Github</a></li>
+                        </ul>
+                    </div>
+                </footer>
+            </div>
         </div>
 
         <!-- Option 1: Bootstrap Bundle with Popper -->
