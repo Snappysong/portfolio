@@ -19,9 +19,11 @@ body {
 p{
     color: rgb(58,42,29);
 }
-
 h3{
     color: rgb(39,64,41);
+}
+.card {
+    background-color: rgb(153,157,116);
 }
 a:link { /*this makes links look blue*/
     color: blue;
