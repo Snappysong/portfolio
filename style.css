@@ -7,35 +7,31 @@
     font-family: 'Raleway', sans-serif;
 }
 header {
-    background-color: rgb(188,171,121);
+    background-color: rgb(153,157,116);
 }
 footer {
-    background-color: rgb(188,171,121); 
+    background-color: rgb(153,157,116); 
 }
 body { 
-    background-color: rgb(242,228,187);
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(234,227,215);
+    font-family: 'Raleway', sans-serif;
 }
 p{
-    color: black;
-    font-family: 'Raleway', sans-serif;
+    color: rgb(58,42,29);
 }
 
 h3{
-    color: rgb(71,74,44);
+    color: rgb(39,64,41);
 }
 a:link { /*this makes links look blue*/
     color: blue;
 }
 a:visited { /*this makes visited links look purple*/
-    color: rgb(164,66,0);
+    color: white;
 }
 img:hover { /*this makes it when your mouseover the image it looks red! */
     border-color: red;
 }
-h2:hover { /*this makes it when your mouseover h2 it looks red! */
-    color: red;
-}
-h3:hover { /*this makes it when your mouseover h3 it looks red! */
-    color: red;
+h3:hover { /*this makes it when your mouseover h2 it looks red! */
+    color: blue;
 }
