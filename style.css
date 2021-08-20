@@ -31,6 +31,9 @@ a:link { /*this makes links look blue*/
 a:visited { /*this makes visited links look purple*/
     color: white;
 }
+a:hover {
+    color: purple;
+}
 img:hover { /*this makes it when your mouseover the image it looks red! */
     border-color: red;
 }
