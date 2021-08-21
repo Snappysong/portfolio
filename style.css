@@ -1,5 +1,8 @@
+
+/* Fonts! */
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
 .bigcinzel {
     font-family: 'Cinzel', serif;
     font-weight: 600;
@@ -11,37 +14,120 @@
 .raleway {
     font-family: 'Raleway', serif;
 }
+
+/* HTML Elements */
 header {
     background-color: rgb(153,157,116);
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
 }
 footer {
     background-color: rgb(153,157,116); 
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
 }
 body { 
     background-color: rgb(234,227,215);
     font-family: 'Raleway', serif;
 }
-p{
+p {
     color: rgb(58,42,29);
 }
-h3{
+h3 {
     color: rgb(39,64,41);
 }
+a {
+    color: blue;
+}
+
+/* Nav components! */
+.nav-link {
+    color: blue;
+}
+
+/* Buttons! */
+.btn {
+    padding: 15px 25px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999; 
+}
+.btn:hover {
+    background-color: #3e8e41;
+}
+.btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.sendbtn {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999; 
+}
+.sendbtn:hover {
+    background-color: #3e8e41;
+}
+.sendbtn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
 .card {
     background-color: rgb(153,157,116);
 }
-a:link { /*this makes links look blue*/
-    color: white;
+
+
+/* Animations! */
+.breathe {
+    animation: breathing 3s ease-out infinite normal;
 }
-a:visited { /*this makes visited links look purple*/
-    color: white;
+@keyframes breathing {
+    0% {
+      -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  
+    25% {
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
+    }
+  
+    60% {
+      -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  
+    100% {
+      -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      transform: scale(0.9);
+    }
 }
-a:hover {
-    color: purple;
+
+.wiggle {
+    animation: wiggle 2.5s infinite;
 }
-img:hover { /*this makes it when your mouseover the image it looks red! */
-    border-color: red;
-}
-h3:hover { /*this makes it when your mouseover h2 it looks red! */
-    color: purple;
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+   80% { transform: rotate(0deg); }
+   85% { transform: rotate(5deg); }
+   95% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
 }
