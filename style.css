@@ -1,15 +1,13 @@
 
 /* Fonts! */
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
-
-.bigcinzel {
-    font-family: 'Cinzel', serif;
-    font-weight: 600;
+.fatface {
+    font-family: 'Abril Fatface', serif;
 }
-.cinzel {
-    font-family: 'Cinzel', serif;
-    font-weight: 400;
+.righteous {
+    font-family: 'Righteous', serif;
 }
 .raleway {
     font-family: 'Raleway', serif;
@@ -21,28 +19,41 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
-
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
 }
 footer {
     background-image: url('images/clouds-footer.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
 }
 body { 
     background-color: white;
     font-family: 'Raleway', serif;
 }
 p {
-    color: rgb(58,42,29);
+    color: black;
 }
 h3 {
-    color: #362c28;
+    color: black;
 }
 a {
     color: #ffefe7;
 }
 a:hover {
     color: #ff9465;
+}
+.imgBackground {
+    width: 100%;
+    background-image: url('images/clouds-only.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    border-radius: 3%;
+
 }
 
 /* Nav components! */
@@ -52,6 +63,11 @@ a:hover {
 .nav-link:hover {
     color: #ff9465;
     
+}
+
+/* Card components! */
+.card {
+    background-color: #fbf6f3;
 }
 
 /* Buttons! */
@@ -67,10 +83,10 @@ a:hover {
     box-shadow: 0 9px #999; 
 }
 .btn:hover {
-    background-color: #3e8e41;
+    background-color: #085ca0;
 }
 .btn:active {
-    background-color: #3e8e41;
+    background-color: #085ca0;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
@@ -87,18 +103,13 @@ a:hover {
     box-shadow: 0 9px #999; 
 }
 .sendbtn:hover {
-    background-color: #3e8e41;
+    background-color: #085ca0;
 }
 .sendbtn:active {
-    background-color: #3e8e41;
+    background-color: #085ca0;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
-
-.card {
-    background-color: rgb(153,157,116);
-}
-
 
 /* Animations! */
 .breathe {
@@ -132,6 +143,9 @@ a:hover {
 
 .wiggle {
     animation: wiggle 2.5s infinite;
+}
+.hoverWiggle:hover {
+    animation: wiggle 1s infinite;
 }
 @keyframes wiggle {
     0% { transform: rotate(0deg); }
