@@ -17,32 +17,41 @@
 
 /* HTML Elements */
 header {
-    background-color: rgb(153,157,116);
-    border-bottom-left-radius: 5%;
-    border-bottom-right-radius: 5%;
+    background-image: url('images/clouds.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+
 }
 footer {
-    background-color: rgb(153,157,116); 
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
+    background-image: url('images/clouds-footer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 body { 
-    background-color: rgb(234,227,215);
+    background-color: white;
     font-family: 'Raleway', serif;
 }
 p {
     color: rgb(58,42,29);
 }
 h3 {
-    color: rgb(39,64,41);
+    color: #362c28;
 }
 a {
-    color: blue;
+    color: #ffefe7;
+}
+a:hover {
+    color: #ff9465;
 }
 
 /* Nav components! */
 .nav-link {
-    color: blue;
+    color: black;
+}
+.nav-link:hover {
+    color: #ff9465;
+    
 }
 
 /* Buttons! */
