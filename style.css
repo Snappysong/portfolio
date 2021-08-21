@@ -77,16 +77,16 @@ a:hover {
     cursor: pointer;
     outline: none;
     color: #fff;
-    background-color: #04AA6D;
+    background-color: #085ca0;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999; 
 }
 .btn:hover {
-    background-color: #085ca0;
+    background-color: #ff9465;
 }
 .btn:active {
-    background-color: #085ca0;
+    background-color: #ff9465;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
@@ -97,16 +97,16 @@ a:hover {
     cursor: pointer;
     outline: none;
     color: #fff;
-    background-color: #04AA6D;
+    background-color: #085ca0;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999; 
 }
 .sendbtn:hover {
-    background-color: #085ca0;
+    background-color: #ff9465;
 }
 .sendbtn:active {
-    background-color: #085ca0;
+    background-color: #ff9465;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
