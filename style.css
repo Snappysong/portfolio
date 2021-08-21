@@ -1,10 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+.bigcinzel {
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+}
 .cinzel {
-    font-family: 'Cinzel', sans-serif;
+    font-family: 'Cinzel', serif;
+    font-weight: 400;
 }
 .raleway {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', serif;
 }
 header {
     background-color: rgb(153,157,116);
@@ -14,7 +19,7 @@ footer {
 }
 body { 
     background-color: rgb(234,227,215);
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', serif;
 }
 p{
     color: rgb(58,42,29);
@@ -26,7 +31,7 @@ h3{
     background-color: rgb(153,157,116);
 }
 a:link { /*this makes links look blue*/
-    color: blue;
+    color: white;
 }
 a:visited { /*this makes visited links look purple*/
     color: white;
@@ -38,5 +43,5 @@ img:hover { /*this makes it when your mouseover the image it looks red! */
     border-color: red;
 }
 h3:hover { /*this makes it when your mouseover h2 it looks red! */
-    color: blue;
+    color: purple;
 }

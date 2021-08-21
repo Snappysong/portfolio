@@ -20,13 +20,13 @@
 
                     <div class="col-md-8 d-flex align-items-center">
                         <a href="/" class="justify-content-left text-decoration-none">
-                            <h1 class="display-1 cinzel">Andrew Song</h1>
+                            <h1 class="display-1 bigcinzel">Andrew Song</h1>
                             <h6 class="d-flex justify-content-center cinzel">Full Stack Web Developer</h6>
                         </a>
                     </div>
 
                     <div class="col-md-4 d-flex align-items-center">
-                        <ul class="nav nav-pills d-flex justify-content-end">
+                        <ul class="nav nav-pills justify-content-end">
                             <li class="nav-item">
                                 <a href="#projects" class="nav-link raleway">Projects</a>
                             </li>
@@ -39,6 +39,7 @@
                         </ul>
                     </div>
 
+
                 </header>
             </div>
         </div>
@@ -46,43 +47,56 @@
         <main class="container-fluid">
 
             <section id="about">
-                <h3 class="d-flex justify-content-center display-3 cinzel">About Me</h3> 
-                    <p>Hello! I am Andrew and I am now chasing my career dreams! I remember back in the myspace days of spending hours and hours to customize your page and making every little detail pixel perfect. I used to feel so excited when I learned a new trick or shortcut and I'd want to show off to my friends, how I made the text scroll off the page or a small dancing animation.</p>
+                <h3 class="d-flex justify-content-center m-4 display-5 bigcinzel">About Me</h3> 
+                    <p class="d-flex justify-content-center">Hello! I am Andrew and I am now chasing my career dreams! I remember back in the myspace days of spending hours and hours to customize your page and making every little detail pixel perfect. I used to feel so excited when I learned a new trick or shortcut and I'd want to show off to my friends, how I made the text scroll off the page or a small dancing animation.</p>
                     <p>Now I am a full stack software engineer and eager to use my skills to make fun and innovative applications for the world! I love the feeling of solving a particularly hard puzzle and the sense of satisfaction in a completed project is unlike anything I've experienced in a customer service industry. Having something tangible to show off to my friends or family (or future employers) is also particularly attractive.</p>
                     <p>I am also a big fan of table top games and lore building, so as you can imagine, I have many project ideas ranging from virtual table top simulators to lore content creation. There are so many different applications for my new programming knowledge and I am very excited to dive in and make all the ideas in my head into something real.</p>
             </section>
+
             <hr />
+
             <section id="projects">
-                <h3 class="d-flex justify-content-center display-3 cinzel">Projects</h3>
+                <h3 class="d-flex justify-content-center m-4 display-5 bigcinzel">Projects</h3>
                 <div class="container">
-                    <div class="row">
+                    <div class="row justify-content-between">
 
                         <div class="card d-flex col-md-4">
                             <img src="images/restuarant-dashboard.png" class="card-img-top" alt="Reservation Project Example">
                             <div class="card-body">
-                                <h5 class="card-title cinzel">Restuarant Reservations</h5>
-                                <p class="card-text raleway">
+                                <h5 class="card-title cinzel d-flex justify-content-center">Restuarant Reservation</h5>
+                                <p class="card-text">
                                     This project is aimed toward service and hospitality employee use with the purpose of making and tracking reservations and tables.
                                 </p>
-                                <a href="https://thinkful-rest-res-client.herokuapp.com/" class="btn btn-primary">View Project</a>
+                                <p class="card-text">
+                                    Full stack, React and Bootstrap client with RESTful API, Node, Express, Knex backend and deployed on Heroku.
+                                </p>
+                                <a href="https://thinkful-rest-res-client.herokuapp.com/" class="btn btn-primary d-flex justify-content-center">View Project</a>
+                            </div>
+                        </div>
+
+                        <div class="card d-flex col-md-4">
+                            <img src="images/timer.png" class="card-img-top" alt="Pomodoro Timer Project Example">
+                            <div class="card-body">
+                                <h5 class="card-title cinzel d-flex justify-content-center">Pomodoro Timer</h5>
+                                <p class="card-text">
+                                    I made this project for myself after learning about the Pomodoro studying technique. In the end I find that I worked much better without it, and making this timer was just great practice.
+                                </p>
+                                <p class="card-text">
+                                    React and Bootstrap, and deployed on Vercel.
+                                </p>
+                                <a href="https://pomodoro-timer-tawny.vercel.app/" class="btn btn-primary d-flex justify-content-center">View Project</a>
                             </div>
                         </div>
 
                         <div class="card d-flex col-md-4 justify-content-center">
-                            <img src="" class="card-img-top" alt="Reservation Project Example">
+                            <img src="images/decoder.png" class="card-img-top" alt="Decoder Project Example">
                             <div class="card-body">
-                                <h5 class="card-title">Project title</h5>
-                                <p class="card-text">Describe the project</p>
-                                <a href="#" class="btn btn-primary">Link to Project</a>
-                            </div>
-                        </div>
-
-                        <div class="card d-flex col-md-4 justify-content-center">
-                            <img src="" class="card-img-top" alt="Reservation Project Example">
-                            <div class="card-body">
-                                <h5 class="card-title">Project title</h5>
-                                <p class="card-text">Describe the project</p>
-                                <a href="#" class="btn btn-primary">Link to Project</a>
+                                <h5 class="card-title cinzel d-flex justify-content-center">Message Coder</h5>
+                                <p class="card-text">This was the first project I made using javascript to handle the logic behind the decoding and encoding. I want to leave them in this non-refactored state so I can look back on them fondly.</p>
+                                <p class="card-text">
+                                    React and Bootstrap, and deployed using Github.
+                                </p>
+                                <a href="https://snappysong.github.io/decoder-ring/" class="btn btn-primary d-flex justify-content-center">View Project</a>
                             </div>
                         </div>
 
@@ -92,7 +106,7 @@
             <hr />
 
             <section id="skills">
-                <h3 class="d-flex justify-content-center display-3 cinzel">Skills</h3>
+                <h3 class="d-flex justify-content-center m-4 display-5 bigcinzel">Skills</h3>
 
                 <div class="container">
                     <div class="row justify-content-around" style="padding:0px !important;">
@@ -145,7 +159,7 @@
             <hr />
             
             <section id="contact">
-                <h3 class="d-flex justify-content-center display-3 cinzel">Contact</h3>
+                <h3 class="d-flex justify-content-center m-4 display-5 bigcinzel">Contact</h3>
                 <div class="container">
                     <form action="https://formsubmit.co/snappysong@gmail.com" method="POST">
                         <label class="form-label">Name:</label>
@@ -165,13 +179,13 @@
                             class="form-control mb-2"
                         >
                         <label class="form-label">Message:</label>
-                        <input
-                            type="textarea" 
+                        <textarea
                             name="message" 
                             placeholder="Write your message here." 
                             required
                             class="form-control"
-                        >
+                            rows="6"
+                        ></textarea>
                         <div class="d-flex justify-content-center">
                             <button type="submit" class="btn btn-primary mt-4 mb-4">Send</button>  
                         </div>
@@ -196,8 +210,16 @@
 
                     <div class="col-4 d-flex justify-content-end">
                         <ul class="nav list-unstyled">
-                            <li class="ms-3"><a href="https://www.linkedin.com/in/andrew-song-b43146103/">LinkedIn</a></li>
-                            <li class="ms-3"><a href="https://github.com/Snappysong">Github</a></li>
+                            <li class="ms-3">
+                                <a href="https://www.linkedin.com/in/andrew-song-b43146103/">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Font_Awesome_5_brands_linkedin.svg" height="50px" alt="LinkedIn icon">
+                                </a>
+                            </li>
+                            <li class="ms-3">
+                                <a href="https://github.com/Snappysong">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Font_Awesome_5_brands_github-square.svg" height="50px" alt="Github icon">
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </footer>
