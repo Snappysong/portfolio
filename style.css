@@ -53,46 +53,36 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 20px;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
     border-radius: 3%;
 
 }
 
 .marquee {
     width: 100%;
-    height: 400px;
+    height: 100%;
     overflow-x: hidden;
 }
 .marquee-content {
     display: flex;
-    height: 350px;
     list-style: none;
+    animation: marquee 20s linear infinite;
+
 }
 .marquee-item {
-    width: 250px;
-    height: 300px;
-    animation: marquee 15s linear infinite;
+    width: 100%;
+    height: 100%;
 }
 .marquee-content:hover {
     animation-play-state: paused;
 }
 @keyframes marquee {
     from {
-      transform: translateX(300%);
+      transform: translateX(100%);
     }
     to {
-      transform: translateX(-300%);
+      transform: translateX(-100%);
     }
-}
-
-
-/* Nav components! */
-.nav-link {
-    color: white;
-}
-.nav-link:hover {
-    color: #ff9465;
-    
 }
 
 /* Card components! */
@@ -101,6 +91,24 @@ a:hover {
     border-style: none;
     height: 400px;
     align-items: center;
+}
+.project-title {
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    text-align: center;
+}
+.project-text {
+    text-align: center;
+}
+
+/* Nav components! */
+.nav-link {
+    color: #ffefe7;
+}
+.nav-link:hover {
+    color: #ff9465;
+    
 }
 
 /* Buttons! */
@@ -187,6 +195,7 @@ a:hover {
   100% { transform: rotate(0deg); }
 }
 
+/* DARK MODE */
 .switch {
     align-self: flex-end;
     margin: 0.9375rem;
@@ -202,7 +211,6 @@ a:hover {
     font-size: 1rem;
     padding: 0.1875rem;
     margin-left: 0.3125rem;
-    
 }
 
 .dark,
