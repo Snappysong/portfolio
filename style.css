@@ -29,6 +29,7 @@ footer {
     background-size: cover;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
+    height: 55px;
 }
 body { 
     background-color: white;
@@ -154,4 +155,41 @@ a:hover {
    85% { transform: rotate(5deg); }
    95% { transform: rotate(-5deg); }
   100% { transform: rotate(0deg); }
+}
+
+.switch {
+    align-self: flex-end;
+    margin: 0.9375rem;
+}
+.inner-switch {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: 1.25rem;
+    width: 3.125rem;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.1875rem;
+    margin-left: 0.3125rem;
+}
+
+.dark,
+.dark body {
+    background-color: #222;
+    border-color: #e6e6e6;
+}
+.dark p {
+    color: #e6e6e6;
+}
+.dark h3 {
+    color: #e6e6e6;
+}
+.dark .cssIcon {
+    color: #e6e6e6;
+}
+.dark .darkCard {
+    background-color: #222;
+}
+.dark .darkFooterText {
+    color: black;
 }

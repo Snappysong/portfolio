@@ -10,33 +10,26 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
         <!-- my style css file -->
         <link href="style.css" rel="stylesheet" type="text/css" />
-        <!-- my script file for header shrink-->
-        <!-- <script>
-            window.onscroll = function() {scrollFunction()};
-
-            function scrollFunction() {
-                if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-                    document.getElementById("header").style.fontSize = "30px";
-                } else {
-                        document.getElementById("header").style.fontSize = "90px";
-                }
-            }
-        </script> -->
     </head>
 
     <body>
         <header id="header" class="d-flex flex-wrap justify-content-around border-bottom">
             <div class="container-fluid">
 
+                <div class="switch d-flex justify-content-end">Dark mode:              
+                    <span class="inner-switch">OFF</span>
+                </div>
+
                 <div class="row mt-5">
                     <div class="d-flex justify-content-center">
-                        <a href="https://snappysong.github.io/portfolio/" class="justify-content-left text-decoration-none">
+                        <a href="https://snappysong.github.io/portfolio/" class="text-decoration-none">
                             <h1 class="righteous" style="font-size: 60px;">Andrew Song</h1>
                             <h6 class="d-flex justify-content-center righteous" style="font-size: 22px;">Full Stack Web Developer</h6>
                         </a>
+                    </div> 
                 </div>
 
-                <div class="row mt-3">
+                <div class="row mt-5 mb-2">
                     <div class="d-flex justify-content-center">
                         <ul class="nav">
                             <li class="nav-item">
@@ -51,12 +44,13 @@
                         </ul>
                     </div>
                 </div>
+
             </div>
         </header>
 
         <main>
 
-            <section id="about" class="container-fluid p-3">
+            <section id="about" class="about container-fluid p-3">
                 <h3 class="d-flex justify-content-center m-4 display-5 righteous">About Me</h3> 
                     <p>Hello! I am Andrew and I am now chasing my career dreams! I remember back in the myspace days of spending hours and hours to customize your page and making every little detail pixel perfect. I used to feel so excited when I learned a new trick or shortcut and I'd want to show off to my friends, how I made the text scroll off the page or a small dancing animation.</p>
                     <p>Now I am a full stack software engineer and eager to use my skills to make fun and innovative applications for the world! I love the feeling of solving a particularly hard puzzle and the sense of satisfaction in a completed project is unlike anything I've experienced in a customer service industry. Having something tangible to show off to my friends or family (or future employers) is also particularly attractive.</p>
@@ -65,7 +59,7 @@
 
             <div class="imgBackground">
             <section id="projects">
-                <h3 class="d-flex justify-content-center m-4 display-5 righteous">Projects</h3>
+                <h3 class="d-flex justify-content-center m-4 display-5 righteous" style="color: black;">Projects</h3>
                 <div class="container-fluid">
                     <div class="row justify-content-between">
 
@@ -130,7 +124,7 @@
                             <p class="d-flex justify-content-center">HTML</p>
                         </div>
                         <div class="col-3">
-                            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="css3" style="min-height:100px; max-height:100px; width:100%;" class="breathe svg-inline--fa fa-css3 fa-w-16 skill-icon grow" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M480 32l-64 368-223.3 80L0 400l19.6-94.8h82l-8 40.6L210 390.2l134.1-44.4 18.8-97.1H29.5l16-82h333.7l10.5-52.7H56.3l16.3-82H480z"></path></svg>                            
+                            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="css3" style="min-height:100px; max-height:100px; width:100%;" class="cssIcon breathe svg-inline--fa fa-css3 fa-w-16 skill-icon grow" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M480 32l-64 368-223.3 80L0 400l19.6-94.8h82l-8 40.6L210 390.2l134.1-44.4 18.8-97.1H29.5l16-82h333.7l10.5-52.7H56.3l16.3-82H480z"></path></svg>                            
                             <p class="d-flex justify-content-center">CSS</p>
                         </div>
                         <div class="col-3">
@@ -210,12 +204,12 @@
 
         </main>
 
-        <div class="container-fluid">
-            <div class="row">
-                <footer class="d-flex justify-content-around align-items-center border-top">
+        <footer class="footer d-flex justify-content-around align-items-center border-top">
+            <div class="container-fluid">
+                <div class="row">
 
                     <div class="col-4 d-flex justify-content-left">
-                        <p class="raleway">on Discord @ Snappy#4005</p>
+                        <p class="darkFooterText raleway">on Discord @ Snappy#4005</p>
                     </div>
 
                     <div class="col-4 justify-content-center d-flex">
@@ -241,12 +235,17 @@
                             </li>
                         </ul>
                     </div>
-                </footer>
+                </div>
             </div>
-        </div>
-
+        </footer>
         <!-- Option 1: Bootstrap Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+        <!-- jQuery Library script -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+        <!-- my script file -->
+        <script src="script.js"></script>
 
     </body>
 </html>
