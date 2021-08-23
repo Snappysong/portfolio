@@ -21,6 +21,7 @@ header {
     height: 300px;
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
+    
 }
 footer {
     background-image: url('images/clouds-footer.jpg');
@@ -80,7 +81,7 @@ a:hover {
     background-color: #085ca0;
     border: none;
     border-radius: 15px;
-    box-shadow: 0 9px #999; 
+    box-shadow: 0 9px #d4ceca; 
 }
 .btn:hover {
     background-color: #ff9465;
