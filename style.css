@@ -18,7 +18,7 @@ html {
     height: 100%;
 }
 body { 
-    background-color: white;
+    background-color: #ffefe7;
     font-family: 'Raleway', serif;
     min-height: 100%;
     position: relative;
@@ -113,10 +113,10 @@ a:hover {
 
 /* Nav components! */
 .nav-link {
-    color: #ffefe7;
+    color: #ff9465;
 }
 .nav-link:hover {
-    color: #ff9465;
+    color: #ffefe7;
     
 }
 
@@ -233,10 +233,18 @@ a:hover {
 .dark h3 {
     color: #e6e6e6;
 }
+.dark a {
+    color: black;
+}
+.dark .nav-link {
+    color: black;
+}
 .dark .cssIcon {
     color: #e6e6e6;
 }
-
+.dark .form-label {
+    color: white;
+}
 .dark .darkFooterText {
     color: black;
 }
