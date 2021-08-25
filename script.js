@@ -9,3 +9,6 @@ $( ".inner-switch" ).on("click", function() {
     }
 });
 
+$('.carousel').carousel({
+  interval: 5000
+})

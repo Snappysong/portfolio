@@ -30,7 +30,6 @@ header {
     background-size: cover;
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
-    
 }
 footer {
     background-image: url('images/clouds-footer.jpg');
@@ -55,6 +54,7 @@ a {
 a:hover {
     color: #ff9465;
 }
+
 .imgBackground {
     width: 100%;
     background-image: url('images/clouds-only.jpg');
@@ -66,48 +66,16 @@ a:hover {
 
 }
 
-.marquee {
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
+.carousel-item img {
+    width: 100px;
+    height: 300px;
 }
-.marquee-content {
-    display: flex;
-    list-style: none;
-    animation: marquee 20s linear infinite;
-
+.carousel-caption a {
+    color: black;
 }
-.marquee-item {
-    width: 100%;
-    height: 100%;
-}
-.marquee-content:hover {
-    animation-play-state: paused;
-}
-@keyframes marquee {
-    from {
-      transform: translateX(100%);
-    }
-    to {
-      transform: translateX(-100%);
-    }
-}
-
-/* Card components! */
-.card {
-    background-color: transparent;
-    border-style: none;
-    height: 400px;
-    align-items: center;
-}
-.project-title {
-    display: flex;
-    justify-content: center;
-    font-weight: 800;
-    text-align: center;
-}
-.project-text {
-    text-align: center;
+.carousel-caption a:hover {
+    text-decoration: none;
+    color: #ff9465;
 }
 
 /* Nav components! */
