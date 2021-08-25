@@ -28,7 +28,6 @@ header {
     background-image: url('images/clouds.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px;
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
     
@@ -236,7 +235,13 @@ a:hover {
 .dark a {
     color: black;
 }
+.dark .darkMode {
+    color: black;
+}
 .dark .nav-link {
+    color: black;
+}
+.dark .project-text {
     color: black;
 }
 .dark .cssIcon {
@@ -245,12 +250,9 @@ a:hover {
 .dark .form-label {
     color: white;
 }
-.dark .darkFooterText {
-    color: black;
-}
 .dark .sendbtn {
     box-shadow: 0 0px;
 }
-.dark .project-text {
+.dark .darkFooterText {
     color: black;
 }
