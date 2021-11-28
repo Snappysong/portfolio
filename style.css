@@ -13,6 +13,14 @@
     font-family: 'Raleway', serif;
 }
 
+/* for screens bigger than 1000px */
+@media screen and (min-width: 1000px) {
+    main {
+      width: 800px;
+      margin: 0 auto;
+    }
+  }
+
 /* HTML Elements */
 html {
     height: 100%;
